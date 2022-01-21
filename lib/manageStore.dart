@@ -27,19 +27,22 @@ class ManageStore extends StatelessWidget {
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Image.asset(
-                          'assests/images/1.png',
-                          width: 60,
-                          height: 30,
-                        ),
-                        Padding(
-                          padding: EdgeInsets.all(5),
-                          child: Text('Marketing \n Designs'),
-                        )
-                      ],
+                    child: Padding(
+                      padding: const EdgeInsets.only(top: 10),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Image.asset(
+                            'assests/images/1.png',
+                            width: 60,
+                            height: 30,
+                          ),
+                          Padding(
+                            padding: EdgeInsets.all(5),
+                            child: Text('Marketing \n Designs'),
+                          )
+                        ],
+                      ),
                     )),
               ),
               Container(
@@ -50,19 +53,22 @@ class ManageStore extends StatelessWidget {
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Image.asset(
-                          'assests/images/rupees png.png',
-                          width: 60,
-                          height: 30,
-                        ),
-                        Padding(
-                          padding: EdgeInsets.all(5),
-                          child: Text('Online  \n Payments'),
-                        )
-                      ],
+                    child: Padding(
+                      padding: const EdgeInsets.only(top: 10),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Image.asset(
+                            'assests/images/rupees png.png',
+                            width: 60,
+                            height: 30,
+                          ),
+                          Padding(
+                            padding: EdgeInsets.all(5),
+                            child: Text('Online  \n Payments'),
+                          )
+                        ],
+                      ),
                     )),
               ),
             ],
@@ -77,19 +83,22 @@ class ManageStore extends StatelessWidget {
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Image.asset(
-                          'assests/images/discount.png',
-                          width: 60,
-                          height: 30,
-                        ),
-                        Padding(
-                          padding: EdgeInsets.all(5),
-                          child: Text('   Discount \n   Coupouns'),
-                        )
-                      ],
+                    child: Padding(
+                      padding: const EdgeInsets.only(top:10.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Image.asset(
+                            'assests/images/discount.png',
+                            width: 60,
+                            height: 30,
+                          ),
+                          Padding(
+                            padding: EdgeInsets.all(5),
+                            child: Text('   Discount \n   Coupouns'),
+                          )
+                        ],
+                      ),
                     )),
               ),
               Container(
@@ -100,19 +109,22 @@ class ManageStore extends StatelessWidget {
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
-                    child: Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        Image.asset(
-                          'assests/images/people.jpg',
-                          width: 60,
-                          height: 30,
-                        ),
-                        Padding(
-                          padding: EdgeInsets.all(5),
-                          child: Text('My\nCustomers'),
-                        )
-                      ],
+                    child: Padding(
+                      padding: const EdgeInsets.only(top:10.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Image.asset(
+                            'assests/images/people.jpg',
+                            width: 60,
+                            height: 30,
+                          ),
+                          Padding(
+                            padding: EdgeInsets.all(5),
+                            child: Text('My\nCustomers'),
+                          )
+                        ],
+                      ),
                     )),
               ),
             ],
@@ -129,19 +141,22 @@ class ManageStore extends StatelessWidget {
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),
                         ),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Image.asset(
-                              'assests/images/scan.jpg',
-                              width: 60,
-                              height: 30,
-                            ),
-                            Padding(
-                              padding: EdgeInsets.all(5),
-                              child: Text('Store QR \n Code'),
-                            )
-                          ],
+                        child: Padding(
+                          padding: const EdgeInsets.only(top:10.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Image.asset(
+                                'assests/images/scan.jpg',
+                                width: 60,
+                                height: 30,
+                              ),
+                              Padding(
+                                padding: EdgeInsets.all(5),
+                                child: Text('Store QR \n Code'),
+                              )
+                            ],
+                          ),
                         )),
                   ),
                   Container(
@@ -152,19 +167,22 @@ class ManageStore extends StatelessWidget {
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),
                         ),
-                        child: Column(
-                          crossAxisAlignment: CrossAxisAlignment.start,
-                          children: [
-                            Image.asset(
-                              'assests/images/Extra.jpg',
-                              width: 60,
-                              height: 30,
-                            ),
-                            Padding(
-                              padding: EdgeInsets.all(5),
-                              child: Text('Extra \n Charges'),
-                            )
-                          ],
+                        child: Padding(
+                          padding: const EdgeInsets.only(top:10.0),
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Image.asset(
+                                'assests/images/Extra.jpg',
+                                width: 60,
+                                height: 30,
+                              ),
+                              Padding(
+                                padding: EdgeInsets.all(5),
+                                child: Text('Extra \n Charges'),
+                              )
+                            ],
+                          ),
                         )),
                   ),
                 ],
@@ -180,23 +198,40 @@ class ManageStore extends StatelessWidget {
                     height: 120,
                     width: 200,
                     child: Card(
-                        shape: RoundedRectangleBorder(
-                          borderRadius: BorderRadius.circular(10),
-                        ),
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(10),
+                      ),
+                      child: Padding(
+                        padding: const EdgeInsets.only(top:10.0),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
-                            Image.asset(
-                              'assests/images/order.jpg',
-                              width: 60,
-                              height: 30,
+                            Padding(
+                              padding: const EdgeInsets.all(5),
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                children: [
+                                  Image.asset(
+                                    'assests/images/order.jpg',
+                                    width: 60,
+                                    height: 30,
+                                  ),
+                                  Image.asset(
+                                    'assests/images/new.jpg',
+                                    width: 30,
+                                    height: 20,
+                                  ),
+                                ],
+                              ),
                             ),
                             Padding(
                               padding: EdgeInsets.all(5),
                               child: Text('Order \n Form'),
                             ),
                           ],
-                        ),),
+                        ),
+                      ),
+                    ),
                   ),
                 ],
               )
