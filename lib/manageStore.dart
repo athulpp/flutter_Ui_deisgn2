@@ -33,13 +33,13 @@ class ManageStore extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
                           Image.asset(
-                            'assests/images/1.png',
+                            'assests/images/market.jpg',
                             width: 60,
                             height: 30,
                           ),
                           Padding(
                             padding: EdgeInsets.all(5),
-                            child: Text('Marketing \n Designs'),
+                            child: Text('   Marketing \n   Designs'),
                           )
                         ],
                       ),
@@ -48,7 +48,7 @@ class ManageStore extends StatelessWidget {
               Container(
                 padding: EdgeInsets.all(10),
                 height: 120,
-                width: 200,
+                width: 192,
                 child: Card(
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
@@ -65,7 +65,7 @@ class ManageStore extends StatelessWidget {
                           ),
                           Padding(
                             padding: EdgeInsets.all(5),
-                            child: Text('Online  \n Payments'),
+                            child: Text('   Online  \n   Payments'),
                           )
                         ],
                       ),
@@ -78,13 +78,13 @@ class ManageStore extends StatelessWidget {
               Container(
                 padding: EdgeInsets.all(10),
                 height: 120,
-                width: 200,
+                width: 192,
                 child: Card(
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.only(top:10.0),
+                      padding: const EdgeInsets.only(top: 10.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -104,13 +104,13 @@ class ManageStore extends StatelessWidget {
               Container(
                 padding: EdgeInsets.all(10),
                 height: 120,
-                width: 200,
+                width: 192,
                 child: Card(
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(10),
                     ),
                     child: Padding(
-                      padding: const EdgeInsets.only(top:10.0),
+                      padding: const EdgeInsets.only(top: 10.0),
                       child: Column(
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: [
@@ -121,7 +121,7 @@ class ManageStore extends StatelessWidget {
                           ),
                           Padding(
                             padding: EdgeInsets.all(5),
-                            child: Text('My\nCustomers'),
+                            child: Text('   My\n   Customers'),
                           )
                         ],
                       ),
@@ -136,13 +136,13 @@ class ManageStore extends StatelessWidget {
                   Container(
                     padding: EdgeInsets.all(10),
                     height: 120,
-                    width: 200,
+                    width: 192,
                     child: Card(
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10),
                         ),
                         child: Padding(
-                          padding: const EdgeInsets.only(top:10.0),
+                          padding: const EdgeInsets.only(top: 10.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -153,7 +153,7 @@ class ManageStore extends StatelessWidget {
                               ),
                               Padding(
                                 padding: EdgeInsets.all(5),
-                                child: Text('Store QR \n Code'),
+                                child: Text('  Store QR \n  Code'),
                               )
                             ],
                           ),
@@ -168,7 +168,7 @@ class ManageStore extends StatelessWidget {
                           borderRadius: BorderRadius.circular(10),
                         ),
                         child: Padding(
-                          padding: const EdgeInsets.only(top:10.0),
+                          padding: const EdgeInsets.only(top: 10.0),
                           child: Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
                             children: [
@@ -179,7 +179,7 @@ class ManageStore extends StatelessWidget {
                               ),
                               Padding(
                                 padding: EdgeInsets.all(5),
-                                child: Text('Extra \n Charges'),
+                                child: Text('  Extra \n Charges'),
                               )
                             ],
                           ),
@@ -202,14 +202,15 @@ class ManageStore extends StatelessWidget {
                         borderRadius: BorderRadius.circular(10),
                       ),
                       child: Padding(
-                        padding: const EdgeInsets.only(top:10.0),
+                        padding: const EdgeInsets.only(top: 10.0),
                         child: Column(
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Padding(
                               padding: const EdgeInsets.all(5),
                               child: Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                                mainAxisAlignment:
+                                    MainAxisAlignment.spaceBetween,
                                 children: [
                                   Image.asset(
                                     'assests/images/order.jpg',
@@ -226,7 +227,7 @@ class ManageStore extends StatelessWidget {
                             ),
                             Padding(
                               padding: EdgeInsets.all(5),
-                              child: Text('Order \n Form'),
+                              child: Text('   Order \n    Form'),
                             ),
                           ],
                         ),
@@ -239,6 +240,25 @@ class ManageStore extends StatelessWidget {
           )
         ],
       ),
+      bottomNavigationBar: BottomAppBar(
+        child: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            IconButton(icon: Icon(Icons.home), onPressed: () {}),
+            IconButton(icon: Icon(Icons.shop), onPressed: () {}),
+            IconButton(
+                icon: Icon(Icons.production_quantity_limits), onPressed: () {}),
+            IconButton(
+                color: Colors.blue,
+                icon: Icon(Icons.manage_accounts),
+                onPressed: () {}),
+            IconButton(icon: Icon(Icons.person), onPressed: () {}),
+          ],
+        ),
+      ),
+      // floatingActionButton:
+      //     FloatingActionButton(child: Icon(Icons.add), onPressed: () {}),
+      // floatingActionButtonLocation: FloatingActionButtonLocation.centerDocked,
     );
   }
 }
